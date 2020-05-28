@@ -2,6 +2,6 @@ def call(Map stageParams) {
  
     buildmaven([
         
-         sh "mvn package"
+         sh mvn package
     ])
   }
