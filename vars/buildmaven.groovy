@@ -1,6 +1,6 @@
 def call(Map stageParams) {
  
-    build([
+    buildmaven([
         build 'Shared Library-pipeline'
     ])
   }
