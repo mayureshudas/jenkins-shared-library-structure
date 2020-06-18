@@ -1,7 +1,7 @@
 def call() {
  
- buildmaven{
+ buildmaven(
      
-        sh 'mvn package'
-     }
+        sh "mvn package"
+     )
   }
