@@ -1,6 +1,6 @@
 def call(Map stageParams) {
  
     buildmaven(
-        sh label: '', script: 'mvn package'
+        sh label: '', script: './mvnw spring-boot:run'
     )
   }
