@@ -1,5 +1,5 @@
-def call() {
-       buildmaven(
-              shell("mvn package").execute()
-  )
+def call(Map config) {
+       
+       sh "mvn package"
+  
 }
