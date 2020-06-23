@@ -2,6 +2,6 @@ def call() {
  
  buildmaven(
      
-       sh label: '', script: 'mvn package'
+       shell('mvn package')
      )
   }
