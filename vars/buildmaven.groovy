@@ -1,7 +1,6 @@
 def call() {
  
  buildmaven(
-     
-       shell('mvn package')
+     shell('mvn package')
      )
   }
