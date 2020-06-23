@@ -1,5 +1,5 @@
 def call(Map config) {
        
-       sh "mvn clean install"
+       sh "./mvnw spring-boot:run"
   
 }
