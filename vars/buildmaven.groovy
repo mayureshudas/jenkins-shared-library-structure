@@ -1,6 +1,3 @@
-def call() {
- 
- buildmaven(
-     shell('mvn package')
-     )
+def buildmaven() {
+       sh 'mvn package'
   }
