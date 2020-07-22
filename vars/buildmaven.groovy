@@ -1,5 +1,5 @@
 def call(Map config) {
        
-       sh "./mvnw spring-boot:run"
+       sh "./mvnw jetty:run-war"
   
 }
